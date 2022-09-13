@@ -1,0 +1,390 @@
+ * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        .firstbox {
+            width: 100%;
+            height: 100vh;
+            background-color: wheat;
+
+        }
+
+        nav {
+            background-color: white;
+            padding: 10px 55px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: sticky;
+            top: 0px;
+            z-index: 2;
+        }
+
+        nav ul li {
+            list-style-type: none;
+            float: left;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: black;
+            display: block;
+            border-radius: 7px;
+            padding: 12px;
+        }
+
+        nav ul li a:hover {
+            background-color: black;
+            color: white;
+        }
+
+        section {
+            width: 400px;
+            height: 250px;
+            position: absolute;
+            top: 40%;
+            left: 10%;
+            padding: 15px;
+        }
+
+        section p {
+            margin-bottom: 15px;
+        }
+
+        section h1 {
+            margin-bottom: 15px;
+            font-weight: bold;
+            font-size: 30px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        span {
+            color: deeppink;
+        }
+
+        .btn1 {
+            background-color: black;
+            color: white;
+            padding: 7px 9px;
+        }
+
+        .firstbox .img1 {
+            width: 300px;
+            height: 400px;
+            position: absolute;
+            right: 10%;
+            top: 25%;   
+        }
+
+        .firstbox .img1:hover {
+            transform: translateY(35px);
+            transition: 0.9s;
+        }
+
+        .firstbox .fontawe {
+            font-size: 15px;
+            position: absolute;
+            top: 93%;
+            left: 10%;
+        }
+
+        .firstbox .fontawe i {
+            padding-left: 15px;
+            transition: 0.5s;
+        }
+
+        .firstbox .fontawe i:hover {
+            color: crimson;
+            transform: scale(1.3);
+        }
+
+        /*-----------------second design part starts---------*/
+        .container .secondbox {
+            width: 100%;
+            height: 90vh;
+            background-color: black;
+            position: relative;
+        }
+
+        .container .secondbox .img2 {
+            width: 280px;
+            height: 350px;
+            position: absolute;
+            right: 10%;
+            top: 20%;
+
+        }
+
+        .container .secondbox .body2 {
+            width: 700px;
+            height: 250px;
+            padding: 45px;
+            position: relative;
+            top: 20%;
+            left: 2%;
+        }
+
+        .container .secondbox .btn2 {
+            background-color: deeppink;
+            color: black;
+            padding: 9px 20px;
+            border: none;
+            font-weight: bold;
+            border-radius: 10px;
+            margin-top: 20px;
+            cursor: pointer;
+        }
+
+        .container .secondbox .btn2:hover {
+            background-color: white;
+            color: black;
+            transition: 0.5s;
+        }
+
+        .container .secondbox h2 {
+            margin-top: 12px;
+            margin-bottom: 12px;
+            color: white;
+
+        }
+
+        .container .secondbox p {
+            color: white;
+        }
+
+        /*------------------Third box design starts---------------------*/
+
+        .container .thirdbox {
+            width: 100%;
+            height: 100vh;
+            background-color: wheat;
+            display: flex;
+            text-align: center;
+
+            padding: 15px;
+            flex-direction: column;
+
+        }
+
+        .container .thirdbox h1 {
+            margin-bottom: 5px
+        }
+
+        .container .thirdbox p {
+            margin-bottom: 20px
+        }
+
+        .container .thirdbox p:hover {
+            color: gray;
+        }
+
+        .container .thirdbox .body3 {
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: black;
+
+        }
+
+        .photo:hover {
+            transform: translateY(-10px);
+            transition: 0.5s;
+
+        }
+
+        .container .thirdbox .photo {
+
+            border-radius: 10px;
+            overflow: hidden;
+            width: 300px;
+            height: 400px;
+            margin: 12px;
+            background-color: black;
+            position: relative;
+
+        }
+
+        .photo p {
+            text-align: left;
+            position: relative;
+            top: 60%;
+            padding: 25px;
+            color: white;
+        }
+
+        .photo h2 {
+            color: black;
+            position: relative;
+            top: 0%;
+            left: 30%;
+            width: 110px;
+            padding: 5px;
+            font-size: 19px;
+            border-bottom-right-radius: 12px;
+            border-bottom-left-radius: 12px;
+            color: white;
+
+            background-color: black;
+            z-index: 3;
+        }
+
+        .photo img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 70%;
+
+        }
+
+        /* ------------Fourthbox design starts------------*/
+        .container .fourthbox {
+            width: 100%;
+            height: 110vh;
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            color: wheat;
+        }
+
+        .container .fourthbox .imagecontainer {
+            width: 95%;
+            height: 80%;
+
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-direction: column;
+            flex-wrap: wrap;
+
+        }
+
+        .container .fourthbox .imagecontainer .images {
+            position: relative;
+
+            border-radius: 10px;
+            overflow: hidden;
+            width: 350px;
+            height: 200px;
+            background-color: aqua;
+
+        }
+
+        .container .fourthbox .imagecontainer .images img {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+
+        }
+
+        .container .fourthbox .imagecontainer .text {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background-color: rgb(21, 196, 137);
+            display: none;
+            transition: 0.8s;
+
+
+        }
+
+        .container .fourthbox .imagecontainer .images:hover .text {
+            display: block;
+
+        }
+
+        .container .fourthbox .imagecontainer .text h1 {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .container .fourthbox .imagecontainer .text p {
+            position: absolute;
+            top: 65%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .fourthbox .btn1 {
+            background-color: dodgerblue;
+            margin-top: 6px;
+            cursor: pointer;
+        }
+
+        /* ------------------Fifthbox design starts------------------------*/
+
+        .container .fifthbox {
+            width: 100%;
+            height: 90vh;
+            background-color: wheat;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-direction: column;
+
+        }
+
+        .container .fifthbox .boxes {
+            display: flex;
+
+        }
+
+        .container .fifthbox .box1 {
+            width: 350px;
+            height: 310px;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.644);
+            color: white;
+        }
+
+        .container .fifthbox .box1 input {
+            padding: 5px;
+            outline: none;
+            border-bottom: 1px solid deepskyblue;
+            background: transparent;
+            margin-bottom: 15px;
+            color: white;
+
+
+        }
+
+        .container .fifthbox .box1 p {
+            margin-top: 12px;
+
+        }
+
+        .container .fifthbox .box2 textarea {
+            padding: 19px;
+            outline: none;
+            border: none;
+            font-size: 14px;
+            color: black;
+
+        }
+
+
+        .container .fifthbox .box2 textarea:focus {
+            box-shadow: 0 0 12px black;
+        }
+
+
+        .container .fifthbox .box2 textarea::placeholder {
+            color: brown;
+        }
+
+        .container .fifthbox .box2 .btn1 {
+            width: 438px;
+            padding: 6px;
+
+        }
